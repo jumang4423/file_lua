@@ -8,7 +8,7 @@ fi
 BINARY_PATH="/usr/local/bin/file_lua"
 SERVICE_PATH="/etc/systemd/system/file_lua.service"
 
-curl -L -o "$BINARY_PATH" "https://github.com/USERNAME/REPO/releases/download/v1.0/file_lua"
+curl -L -o "$BINARY_PATH" "https://github.com/jumang4423/file_lua/releases/download/file_lua/file_lua"
 chmod 755 "$BINARY_PATH"
 
 cat > "$SERVICE_PATH" << EOL
